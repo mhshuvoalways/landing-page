@@ -2,19 +2,25 @@
 import { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import Image from "next/image";
-import French from "@/public/icons/french.svg";
-import SPA from "@/public/icons/spa.svg";
+import SPA from "@/public/icons/spa.png";
+import FR from "@/public/icons/fr.png";
+import EN from "@/public/icons/en.png";
 
 const languages = [
   {
-    id: 3,
+    id: 1,
     name: "SPA",
     icon: SPA,
   },
   {
     id: 2,
     name: "FR",
-    icon: French,
+    icon: FR,
+  },
+  {
+    id: 2,
+    name: "EN",
+    icon: EN,
   },
 ];
 
