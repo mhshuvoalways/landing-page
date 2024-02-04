@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-myblack bg-mypink overflow-x-hidden;
+  }
+  ::placeholder {
+    @apply !text-myblack;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border-2 border-myblack rounded-lg px-5 py-2 font-semibold cursor-pointer bg-myblack text-white;
+  }
+  .title {
+    @apply text-3xl sm:text-5xl font-bold;
+  }
+  .des {
+    @apply text-xl sm:text-2xl;
+  }
+}
