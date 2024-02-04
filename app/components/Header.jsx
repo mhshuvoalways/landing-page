@@ -1,7 +1,7 @@
 import Image from "next/image";
+import DropDown from "./Dropdown";
 import PopUpMenu from "./PopupMenu";
 import Logo from "@/public/images/logo.png";
-import Flag from "@/public/icons/flag.svg";
 
 const Header = () => {
   return (
@@ -17,11 +17,7 @@ const Header = () => {
             <p className="btn bg-mypink text-myblack">Login</p>
             <p className="btn">Free Trial</p>
           </div>
-          <div className="flex items-center gap-1 cursor-pointer">
-            <Image src={Flag} alt="" className="w-7" />
-            <p className="font-semibold">EN</p>
-            <i className="fa-solid fa-angle-down"></i>
-          </div>
+          <DropDown />
           <div className="block sm:hidden">
             <PopUpMenu />
           </div>

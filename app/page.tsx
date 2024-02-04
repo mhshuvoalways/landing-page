@@ -197,10 +197,10 @@ const Home = () => {
               Connect with us on social media for the latest updates
             </p>
             <div className="flex flex-wrap sm:flex-nowrap mt-7">
-              <Image src={Fb} alt="" />
-              <Image src={Twitter} alt="" />
-              <Image src={Linkedin} alt="" />
-              <Image src={Instagram} alt="" />
+              <Image src={Fb} alt="" className="cursor-pointer" />
+              <Image src={Twitter} alt="" className="cursor-pointer" />
+              <Image src={Linkedin} alt="" className="cursor-pointer" />
+              <Image src={Instagram} alt="" className="cursor-pointer" />
             </div>
           </div>
         </div>
